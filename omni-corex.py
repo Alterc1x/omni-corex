@@ -56,15 +56,46 @@ class ART_BANNER:
                             {b}App Versi : {app_vers}v
 """
     
+    opt_choices = fr"""{R}
+                           ▒█████   ███▄ ▄███▓ ███▄    █  ██▓     
+                          ▒██▒  ██▒▓██▒▀█▀ ██▒ ██ ▀█   █ ▓██▒     
+                          ▒██░  ██▒▓██    ▓██░▓██  ▀█ ██▒▒██▒     
+                          ▒██   ██░▒██    ▒██ ▓██▒  ▐▌██▒░██░     
+                          ░ ████▓▒░▒██▒   ░██▒▒██░   ▓██░░██░     
+                          ░ ▒░▒░▒░ ░ ▒░   ░  ░░ ▒░   ▒ ▒ ░▓       
+                            ░ ▒ ▒░ ░  ░      ░░ ░░   ░ ▒░ ▒ ░     
+                          ░ ░ ░ ▒  ░      ░      ░   ░ ░  ▒ ░     
+                              ░ ░         ░            ░  ░     
+
+        [ 0 ] Zphisher
+
+        [ 1 ] CamPhish
+
+        [ 2 ] Dos-Tool
+
+        [ 3 ] IP-Tracer
+"""
+    
 class Main:
 
     def main_menu(self):
+        
         print(ART_BANNER.logo)
-        input(f"{G}Press ENTER To Continue...")
+        input(f"\t\t             {G}Press ENTER To Continue...")
         time.sleep(1)
+        self.main()
+        
         pass
     
     def main(self):
+
+        # print options and choices
+        print()
+
+        while True:
+            pass
+
+    def choices(self):
         pass
 
 if __name__ == "__main__":
